@@ -23,33 +23,13 @@
 
 	<link rel="stylesheet" href="./main.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
-	<script type="text/javascript" src="./jquery.min.js"></script>
-	<script type="text/javascript">
-		(function ($) {
-			$.fn.vAlign = function () {
-				return this.each(function (i) {
-					var h = $(this).height();
-					var oh = $(this).outerHeight();
-					var mt = (h + (oh - h)) / 2;
-					$(this).css("margin-top", "-" + mt + "px");
-					$(this).css("top", "70%");
-					$(this).css("position", "absolute");
-				});
-			};
-		})(jQuery);
-
-		$(document).ready(function () {
-			$("#content").vAlign();
-		});
-	</script>
-
 </head>
 
 <body>
 	<!-- <div id="triangle-topright">
     TODO: coming soon!
 	</div> -->
-	<div id="content" style="margin-top: -404px; top: 50%; position: absolute;">
+	<div id="content">
 		<h1>Hi,<br>
 			<a href="https://www.linkedin.com/in/marekbartik" target="_blank" title="CV">I love automating
 				stuff!</a><br>

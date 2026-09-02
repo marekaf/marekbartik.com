@@ -27,4 +27,7 @@ h1 a:hover {text-decoration: none; color: slategray}
 
 #content {
 	padding: 50px;
+	position: absolute;
+	top: 70%;
+	transform: translateY(-50%);
 }
