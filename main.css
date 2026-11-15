@@ -31,3 +31,8 @@ h1 a:hover {text-decoration: none; color: slategray}
 	top: 70%;
 	transform: translateY(-50%);
 }
+
+@media (max-width: 640px) {
+	h1 { font-size: 44px; line-height: 40px; }
+	#content { padding: 16px; }
+}
